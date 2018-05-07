@@ -49,7 +49,7 @@ public class ScrubPIIService {
     }
 
     public static void tokenRegex() {
-        String file = "PAYPAL *RENEETK XXX-XXX-XXXX CA";
+        String file = "";
         Properties props = new Properties();
         props.put("annotators", "tokenize, ssplit, pos, lemma, ner, parse, dcoref");
         StanfordCoreNLP pipeline = new StanfordCoreNLP(props);

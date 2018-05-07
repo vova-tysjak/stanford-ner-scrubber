@@ -20,9 +20,6 @@ import java.util.Date;
 import java.util.List;
 import java.util.Properties;
 
-/**
- * Created by Pavlo_Vitynskyi on 3/6/2016.
- */
 public class NERDemo {
     public static void trainClassifier() {
         String prop = "d:/corenlp/demo/ner_training.prop";
